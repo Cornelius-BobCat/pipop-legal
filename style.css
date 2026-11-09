@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
+
+:root {
+  --ink: #4a1a3a;
+  --soft: #7a4a68;
+  --pink: #ff5c93;
+  --card: #fff6fa;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-weight: 500;
+  color: var(--ink);
+  background: linear-gradient(170deg, #ffd6e8 0%, #ffb5cf 55%, #ffc39a 100%) fixed;
+  line-height: 1.55;
+}
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+.logo { font-size: 2rem; font-weight: 700; color: #fff; text-decoration: none; text-shadow: 0 3px 0 var(--pink), 0 6px 12px rgba(122, 30, 80, 0.25); }
+nav a { color: var(--ink); }
+article { background: var(--card); border-radius: 24px; padding: 24px 22px; margin-bottom: 20px; box-shadow: 0 8px 0 #f3b9cf, 0 16px 32px rgba(122, 30, 80, 0.15); }
+h1 { margin: 0 0 4px; font-weight: 700; font-size: 1.8rem; }
+h2 { font-weight: 600; font-size: 1.2rem; margin: 22px 0 6px; color: var(--pink); }
+.meta { color: var(--soft); margin-top: 0; }
+a { color: #d93a75; overflow-wrap: anywhere; }
+ul { padding-left: 20px; }
+footer { text-align: center; color: var(--soft); }
